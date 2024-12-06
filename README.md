@@ -21,14 +21,13 @@ Deep Learning and Geometric Feature Extraction</h1>
 </h2>
 
 
-https://github.com/Luis-PP/6-DoF-Grasping-Deformable/blob/master/Short_Simple_x4.mp4
 
 <h3 align="center">
-<video controls>
-  <source src="Short_Simple_x4.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+  ![](Short_Simple_x4.gif)
+
 </h3>
+
 
 
 ## Installation
@@ -73,7 +72,7 @@ pip install tensorboard==2.14.0 tensorboard-data-server==0.7.2
 
 
 ### Add large file
-Go to https://drive.google.com/file/d/1cjJ5UrVO298LzIcI5di2yT2fm8wcMwsq/view?usp=sharing, download the model_final.pth file and paste it to the project (i.e., /6-DOF-GRASPING-DEFORMABLE/model_final.pth).
+Go to [model_final.pth](https://drive.google.com/file/d/1cjJ5UrVO298LzIcI5di2yT2fm8wcMwsq/view?usp=sharing) file and download it. Paste it to the project (i.e., /6-DOF-GRASPING-DEFORMABLE/model_final.pth).
 
 ## Execute
 
