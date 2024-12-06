@@ -43,7 +43,7 @@ git clone https://github.com/Luis-PP/6-DoF-Grasping-Deformable.git
 
 Quick install:
 ```
-cd 6-DoF_Grasping_of_Deformable_Poultry_Legs
+cd 6-DoF_Grasping_of_Deformable
 conda env create -f environment.yml
 conda activate chickenlegenv
 ```
@@ -93,7 +93,7 @@ python GPE_CH__FC.py
 
 ## Citation
 ```bibtex
-@inproceedings{burusa2024gradient,
+@inproceedings{raja2025Real-Time,
   title={Real-Time 6-DoF Grasping of Deformable Poultry Legs in Cluttered Bins Using
 Deep Learning and Geometric Feature Extraction},
   author={Raja, Rekha and Ponce Pacheco, Luis Angel and Burusa, Akshay K and Kootstra, Gert and van Henten, Eldert J},
