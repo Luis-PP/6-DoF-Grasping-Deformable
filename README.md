@@ -21,6 +21,8 @@ Deep Learning and Geometric Feature Extraction</h1>
 </h2>
 
 
+https://github.com/Luis-PP/6-DoF-Grasping-Deformable/blob/master/Short_Simple_x4.mp4
+
 <h3 align="center">
 <video controls>
   <source src="Short_Simple_x4.mp4" type="video/mp4">
