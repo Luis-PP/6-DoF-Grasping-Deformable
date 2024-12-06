@@ -20,7 +20,6 @@ Deep Learning and Geometric Feature Extraction</h1>
   <a href="https://" target="_blank">ArXiv</a>
 </h2>
 
-https://github.com/akshaykburusa/gradientnbv/assets/127020264/dfa1f2a9-f07c-4af0-84ef-7ea20a7cb61b
 
 <h3 align="center">
 <video controls>
