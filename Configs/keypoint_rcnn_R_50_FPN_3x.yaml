@@ -1,0 +1,31 @@
+_BASE_: "Base-Keypoint-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"    # "../../weights/R50-FPN.pkl"
+  MASK_ON: True
+#  KEYPOINT_ON: True
+  RESNETS:
+    DEPTH: 50
+  ROI_HEADS:
+    BATCH_SIZE_PER_IMAGE: 256 #512
+    NUM_CLASSES: 5 #2 #5
+  ROI_KEYPOINT_HEAD: #True
+    NUM_KEYPOINTS: 5
+SOLVER:
+
+DATASETS:
+  TRAIN: ("my_dataset_train_keypoint",)
+  TEST: ("my_dataset_val_keypoint",)
+
+SOLVER:
+  IMS_PER_BATCH: 5
+  BASE_LR: 0.01
+  MAX_ITER: 6001
+  CHECKPOINT_PERIOD: 300
+  AMP:
+    ENABLED: False
+  STEPS: (3000, 5000) # Uncomment to decay learning rate
+  GAMMA: 0.1
+
+TEST:
+  EVAL_PERIOD: 300
+#  KEYPOINT_OKS_SIGMAS: [1.0, 1.0, 1.0, 1.0, 1.0]
